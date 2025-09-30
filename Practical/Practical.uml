@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FTsgsJ3qEfCU7rf2CQhe0Q" name="Practical">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_FW_FQJ3qEfCU7rf2CQhe0Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_oT230J3qEfCU7rf2CQhe0Q" name="Actor2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uD7ZAJ3qEfCU7rf2CQhe0Q" name="MobileShopping-Customer" useCase="_3n1_QJ3qEfCU7rf2CQhe0Q _69o2YJ3qEfCU7rf2CQhe0Q _9J0aEJ3qEfCU7rf2CQhe0Q __U8N0J3qEfCU7rf2CQhe0Q _GLZIQJ3rEfCU7rf2CQhe0Q">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_3n1_QJ3qEfCU7rf2CQhe0Q" name="FindProductLocation" subject="_uD7ZAJ3qEfCU7rf2CQhe0Q">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Rc6f0J3rEfCU7rf2CQhe0Q" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_69o2YJ3qEfCU7rf2CQhe0Q" name="OrderProduct" subject="_uD7ZAJ3qEfCU7rf2CQhe0Q">
+      <include xmi:type="uml:Include" xmi:id="_N2JNcJ3rEfCU7rf2CQhe0Q" addition="_GLZIQJ3rEfCU7rf2CQhe0Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_9J0aEJ3qEfCU7rf2CQhe0Q" name="MakeReview" subject="_uD7ZAJ3qEfCU7rf2CQhe0Q"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="__U8N0J3qEfCU7rf2CQhe0Q" name="ViewProductInfo" subject="_uD7ZAJ3qEfCU7rf2CQhe0Q">
+      <extend xmi:type="uml:Extend" xmi:id="_Rc5RsJ3rEfCU7rf2CQhe0Q" extendedCase="_3n1_QJ3qEfCU7rf2CQhe0Q" extensionLocation="_Rc6f0J3rEfCU7rf2CQhe0Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_GLZIQJ3rEfCU7rf2CQhe0Q" name="MakePayment" subject="_uD7ZAJ3qEfCU7rf2CQhe0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WihuwJ3rEfCU7rf2CQhe0Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bFSvUJ3rEfCU7rf2CQhe0Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cg1gQJ3rEfCU7rf2CQhe0Q"/>
+</uml:Model>
